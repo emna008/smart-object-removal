@@ -523,9 +523,3 @@ La soutenance exige une vidéo inédite filmée par nous. Protocole :
    vitrines dessinées avec `--select-zone`, instants relevés avec `tools/contact_sheet.py` dans
    `data/annotations.csv`, caméra vérifiée avec `tools/check_camera.py`.
 
-## Crédits
-
-- Architecture et choix YOLOv8n + DeepSORT + mémoire de scène : [kaustuv123/Missing-Object-Detection](https://github.com/kaustuv123/Missing-Object-Detection) (vidéo de test « Whatsapp Vid 2.mp4 » utilisée pour la comparaison)
-- Détection : [Ultralytics YOLO](https://docs.ultralytics.com/) (YOLOv8, YOLO-World, YOLOE)
-- Suivi : [deep-sort-realtime](https://github.com/levan92/deep_sort_realtime)
-- Vidéos : Mixkit (m0de0n, rubenvelasco, FrameStock) ; Shoplifting Dataset (2022), Mohd. Aquib Ansari et Dushyant Kumar Singh, CV Laboratory MNNIT Allahabad, CC BY 4.0, DOI 10.17632/r3yjf35hzr.1 ; MERL Shopping Dataset, Mitsubishi Electric Research Labs (Singh, Marks, Jones, Tuzel, Shao, CVPR 2016). Détails : `data/SOURCES.md`.
