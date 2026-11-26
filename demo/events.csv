@@ -1,0 +1,144 @@
+video,temps_s,image,evenement,vitrine,objet,classe,track_id,personne_id,x1,y1,x2,y2,disparu_a_s,personne_proche,capture,clip,details
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 1,1,chaussure,1,,132,122,168,158,,,,,inventaire initial
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 1,2,sac,2,,248,122,284,158,,,,,inventaire initial
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 1,3,montre,3,,364,125,398,158,,,,,inventaire initial
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 2,4,parfum,4,,563,123,598,158,,,,,inventaire initial
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 2,5,lunettes,5,,678,122,714,158,,,,,inventaire initial
+synth_boutique.mp4,2.00,60,INVENTAIRE,Vitrine 2,6,bijou,6,,794,125,827,158,,,,,inventaire initial
+synth_boutique.mp4,15.67,470,RETIRE,Vitrine 2,4,parfum,4,1,563,123,598,144,12.07,oui,synth_boutique_000470_RETIRE_obj4.jpg,synth_boutique_000470_RETIRE_obj4.mp4,"absent depuis 3.6 s, similarite visuelle 0.00, client 1"
+synth_boutique.mp4,20.00,600,DEPLACE,Vitrine 1,3,montre,11,,394,176,426,208,,,,,deplace de 58 px (repose)
+synth_boutique.mp4,26.67,800,RETIRE,Vitrine 1,1,chaussure,1,7,132,122,168,144,23.27,oui,synth_boutique_000800_RETIRE_obj1.jpg,synth_boutique_000800_RETIRE_obj1.mp4,"absent depuis 3.4 s, similarite visuelle 0.00, client 7"
+synth_boutique.mp4,30.40,912,REMIS,Vitrine 1,1,chaussure,14,7,132,122,168,158,,,synth_boutique_000912_REMIS_obj1.jpg,,de retour apres 3.7 s
+synth_boutique.mp4,37.63,1129,RETIRE,Vitrine 2,5,lunettes,5,10,678,122,712,136,34.20,oui,synth_boutique_001129_RETIRE_obj5.jpg,synth_boutique_001129_RETIRE_obj5.mp4,"absent depuis 3.5 s, similarite visuelle 0.00, client 10"
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,1,product,1,,478,356,497,390,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon haut,2,product,2,,156,122,183,165,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,3,product,3,,418,294,441,330,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon haut,4,product,4,,183,126,212,168,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,5,product,5,,396,169,415,201,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon haut,6,product,6,,211,124,237,162,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,7,product,7,,513,355,530,386,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,8,product,8,,66,145,99,172,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,9,product,9,,159,165,185,198,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,10,product,10,,441,295,457,329,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,11,product,11,,22,332,68,378,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,12,product,12,,236,361,280,405,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,13,product,13,,440,236,458,270,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,14,product,14,,725,371,759,409,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,15,product,15,,580,346,607,377,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,16,product,16,,129,163,157,196,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,17,product,17,,59,267,99,306,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,18,product,18,,373,166,396,198,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,19,product,19,,492,334,514,387,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,20,product,20,,88,372,128,420,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,21,product,21,,328,374,360,407,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,22,product,22,,152,326,206,368,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,23,product,23,,140,242,175,304,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,24,product,24,,251,244,269,300,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,25,product,25,,212,243,236,301,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,26,product,26,,458,355,478,394,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,27,product,27,,396,294,419,331,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,28,product,28,,175,238,209,304,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,29,product,29,,138,242,174,272,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,30,product,30,,465,427,482,461,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,31,product,31,,410,416,433,472,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,32,product,32,,449,420,466,465,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon haut,33,product,33,,126,120,156,163,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,34,product,34,,24,383,67,427,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon haut,35,product,35,,2,93,38,121,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,36,product,36,,401,375,421,402,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,37,product,37,,86,239,138,272,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,38,product,38,,457,295,478,328,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,39,product,39,,430,415,450,468,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,40,product,40,,99,150,130,196,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,41,product,41,,271,460,291,499,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,42,product,42,,438,360,458,395,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,43,product,43,,89,333,129,371,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,44,product,44,,68,173,99,195,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,45,product,45,,379,211,401,239,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,46,product,46,,38,171,67,193,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,47,product,47,,361,372,388,404,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,48,product,49,,476,398,500,459,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,49,product,50,,490,305,518,326,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,50,product,52,,234,244,253,300,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,51,product,53,,152,364,232,412,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,52,product,55,,362,296,384,325,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,53,product,64,,251,244,287,301,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.00,60,INVENTAIRE,Rayon bas,54,product,66,,509,423,527,453,,,,,inventaire initial
+web_pexels_01_passage.mp4,2.73,82,DEPLACE,Rayon bas,53,product,77,,127,333,152,369,,,,,deplace de 151 px (repose)
+web_pexels_01_passage.mp4,4.20,126,NOUVEL_OBJET,Rayon bas,55,product,79,,423,375,437,398,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,4.50,135,NOUVEL_OBJET,Rayon bas,56,product,80,,646,288,673,315,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,7.17,215,DEPLACE,Rayon bas,24,product,84,,421,235,441,270,,,,,deplace de 172 px (repose)
+web_pexels_01_passage.mp4,7.43,223,NOUVEL_OBJET,Rayon bas,57,product,83,,466,170,491,210,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,8.90,267,DEPLACE,Rayon haut,33,product,117,,211,124,237,161,,,,,deplace de 83 px (repose)
+web_pexels_01_passage.mp4,9.63,289,DEPLACE,Rayon bas,36,product,30,,465,428,482,461,,,,,deplace de 83 px (repose)
+web_pexels_01_passage.mp4,9.80,294,DEPLACE,Rayon bas,53,product,12,,236,361,279,405,,,,,deplace de 122 px (repose)
+web_pexels_01_passage.mp4,9.80,294,DEPLACE,Rayon bas,55,product,175,,457,295,478,328,,,,,deplace de 84 px (repose)
+web_pexels_01_passage.mp4,9.93,298,DEPLACE,Rayon bas,39,product,152,,304,442,330,492,,,,,deplace de 125 px (repose)
+web_pexels_01_passage.mp4,10.10,303,NOUVEL_OBJET,Rayon bas,58,product,111,,99,149,128,175,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.13,304,NOUVEL_OBJET,Rayon bas,59,product,115,,4,169,36,191,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.17,305,NOUVEL_OBJET,Rayon bas,60,product,9,,159,165,185,198,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,61,product,124,,175,240,209,273,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,62,product,127,,246,164,265,208,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon haut,63,product,128,,35,119,70,147,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,64,product,129,,122,218,154,240,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,65,product,130,,214,163,246,206,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,66,product,135,,99,273,139,305,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,67,product,136,,0,386,25,431,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.40,312,NOUVEL_OBJET,Rayon bas,68,product,137,,0,334,23,379,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.43,313,NOUVEL_OBJET,Rayon bas,69,product,143,,251,244,269,300,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,10.43,313,DEPLACE,Rayon bas,56,product,198,,634,184,649,210,,,,,deplace de 106 px (repose)
+web_pexels_01_passage.mp4,10.67,320,NOUVEL_OBJET,Rayon bas,70,product,164,,330,456,361,488,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,11.13,334,NOUVEL_OBJET,Rayon bas,71,product,178,,467,237,492,271,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,11.33,340,NOUVEL_OBJET,Rayon bas,72,product,7,,513,356,530,386,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,11.40,342,NOUVEL_OBJET,Rayon bas,73,product,191,,492,333,514,387,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,11.83,355,NOUVEL_OBJET,Rayon bas,74,product,125,,127,332,152,367,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,11.97,359,NOUVEL_OBJET,Rayon bas,75,product,166,,385,424,411,476,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,12.00,360,NOUVEL_OBJET,Rayon bas,76,product,13,,421,235,441,270,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,12.03,361,NOUVEL_OBJET,Rayon bas,77,product,113,,421,352,438,399,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,12.13,364,NOUVEL_OBJET,Rayon bas,78,product,207,,651,234,675,269,,,,,objet pose dans la vitrine
+web_pexels_01_passage.mp4,12.60,378,DEPLACE,Rayon bas,78,product,216,,680,332,700,364,,,,,deplace de 100 px (repose)
+web_pexels_01_passage.mp4,13.67,410,DEPLACE,Rayon bas,76,product,223,,346,137,375,181,,,,,deplace de 117 px (repose)
+web_pexels_01_passage.mp4,13.73,412,DEPLACE,Rayon bas,31,product,203,,493,330,532,387,,,,,deplace de 125 px (repose)
+web_mixkit_04_retrait.mp4,9.90,297,NOUVEL_OBJET,Etagere sacs,1,purse,6,,32,19,225,110,,,,,objet pose dans la vitrine
+web_mixkit_05_ajout.mp4,2.00,60,INVENTAIRE,Presentoir,1,clothes,1,,140,2,891,537,,,,,inventaire initial
+web_mixkit_05_ajout.mp4,12.67,380,NOUVEL_OBJET,Presentoir,2,shoe,11,,238,218,685,503,,,,,objet pose dans la vitrine
+web_mixkit_06_retrait.mp4,2.00,60,INVENTAIRE,Comptoir,1,cup,1,,338,151,639,481,,,,,inventaire initial
+web_mixkit_06_retrait.mp4,5.13,154,RETIRE,Comptoir,1,cup,1,,344,140,647,461,2.13,non,web_mixkit_06_retrait_000154_RETIRE_obj1.jpg,web_mixkit_06_retrait_000154_RETIRE_obj1.mp4,"absent depuis 3.0 s, similarite visuelle 0.00"
+web_mixkit_06_retrait.mp4,9.20,276,REMIS,Comptoir,1,cup,4,,313,165,612,488,,,web_mixkit_06_retrait_000276_REMIS_obj1.jpg,,de retour apres 4.1 s
+web_mendeley_01_retrait.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,612,550,732,649,,,,,inventaire initial
+web_mendeley_01_retrait.mp4,2.00,60,INVENTAIRE,Table,2,bottle,2,,522,393,551,474,,,,,inventaire initial
+web_mendeley_01_retrait.mp4,5.80,174,NOUVEL_OBJET,Table,3,bottle,3,,479,398,508,478,,,,,objet pose dans la vitrine
+web_mendeley_02_retrait.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,657,499,801,635,,,,,inventaire initial
+web_mendeley_02_retrait.mp4,2.00,60,INVENTAIRE,Table,2,bottle,2,,578,426,608,523,,,,,inventaire initial
+web_mendeley_03_retrait.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,590,458,731,596,,,,,inventaire initial
+web_mendeley_03_retrait.mp4,7.53,226,DEPLACE,Table,1,box,3,,473,554,596,631,,,,,deplace de 142 px
+web_mendeley_03_retrait.mp4,8.60,258,DEPLACE,Table,1,box,1,,592,461,730,596,,,,,deplace de 141 px
+web_mendeley_03_retrait.mp4,10.13,304,NOUVEL_OBJET,Table,2,box,3,,472,553,596,631,,,,,objet pose dans la vitrine
+web_mendeley_04_passage.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,517,365,618,458,,,,,inventaire initial
+web_mendeley_04_passage.mp4,2.00,60,INVENTAIRE,Table,2,box,2,,621,429,734,533,,,,,inventaire initial
+web_mendeley_04_passage.mp4,4.27,128,DEPLACE,Table,1,box,4,,545,503,648,561,,,,,deplace de 124 px
+web_mendeley_04_passage.mp4,4.27,128,NOUVEL_OBJET,Table,3,bottle,7,,543,406,574,491,,,,,objet pose dans la vitrine
+web_mendeley_04_passage.mp4,5.90,177,NOUVEL_OBJET,Table,4,box,1,,526,367,618,457,,,,,objet pose dans la vitrine
+web_mendeley_05_passage.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,473,385,584,481,,,,,inventaire initial
+web_mendeley_06_passage.mp4,2.00,60,INVENTAIRE,Table,1,box,1,,473,384,584,480,,,,,inventaire initial
+web_mixkit_01_retrait.mp4,2.00,60,INVENTAIRE,Vitrine chaussures,1,shoe,1,,367,125,716,440,,,,,inventaire initial
+web_mixkit_01_retrait.mp4,2.00,60,INVENTAIRE,Vitrine chaussures,2,shoe,2,,227,271,443,436,,,,,inventaire initial
+web_mixkit_01_retrait.mp4,18.87,566,RETIRE,Vitrine chaussures,1,shoe,13,2,352,125,781,288,14.87,oui,web_mixkit_01_retrait_000566_RETIRE_obj1.jpg,web_mixkit_01_retrait_000566_RETIRE_obj1.mp4,"absent depuis 4.0 s, similarite visuelle 0.50, client 2"
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,1,guitar,1,,771,1,906,284,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,2,guitar,2,,560,1,684,288,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,3,guitar,3,,119,2,253,325,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,4,guitar,4,,655,162,796,532,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,5,guitar,5,,331,3,457,334,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,6,guitar,7,,218,117,357,519,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,2.00,60,INVENTAIRE,Vitrine guitares,7,guitar,9,,0,125,142,536,,,,,inventaire initial
+web_mixkit_02_retrait.mp4,4.00,120,DEPLACE,Vitrine guitares,6,guitar,7,,0,4,62,303,,,,,deplace de 305 px
+web_mixkit_02_retrait.mp4,5.33,160,DEPLACE,Vitrine guitares,7,guitar,5,,400,3,537,336,,,,,deplace de 429 px
+web_mixkit_02_retrait.mp4,6.07,182,DEPLACE,Vitrine guitares,5,guitar,9,,68,168,223,537,,,,,deplace de 310 px
+web_mixkit_02_retrait.mp4,6.33,190,DEPLACE,Vitrine guitares,5,guitar,10,,538,112,681,516,,,,,deplace de 466 px (repose)
+web_mixkit_02_retrait.mp4,10.07,302,DEPLACE,Vitrine guitares,2,guitar,2,,716,2,841,291,,,,,deplace de 156 px
+web_mixkit_02_retrait.mp4,10.83,325,RETIRE,Vitrine guitares,1,guitar,1,2,892,3,960,290,7.87,oui,web_mixkit_02_retrait_000325_RETIRE_obj1.jpg,web_mixkit_02_retrait_000325_RETIRE_obj1.mp4,"absent depuis 3.0 s, similarite visuelle 0.47, client 2"
+web_pexels_03_retrait.mp4,9.33,280,NOUVEL_OBJET,Sacs,1,handbag,10,,43,83,240,334,,,,,objet pose dans la vitrine
+web_pexels_04_retrait.mp4,2.40,72,NOUVEL_OBJET,Congelateur,1,product,3,,884,83,960,327,,,,,objet pose dans la vitrine
+web_pexels_04_retrait.mp4,4.50,135,NOUVEL_OBJET,Congelateur,2,product,10,,531,20,703,212,,,,,objet pose dans la vitrine
+web_pexels_04_retrait.mp4,6.13,184,NOUVEL_OBJET,Congelateur,3,product,30,,705,2,864,182,,,,,objet pose dans la vitrine
+web_pexels_04_retrait.mp4,6.77,203,NOUVEL_OBJET,Congelateur,4,product,36,,513,171,958,505,,,,,objet pose dans la vitrine

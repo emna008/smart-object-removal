@@ -1,0 +1,89 @@
+# Smart Object Removal - variante "grand magasin" : rayon rempli de petits articles (ex. videos/web_pexels_01_passage.mp4)
+# Lancer : python main.py --config config_grand_magasin.yaml --video videos/web_pexels_01_passage.mp4
+# Differences avec config.yaml : YOLOE + vocabulaire generique ("product"), seuil 0.15, images 960 px,
+# tracker des articles allege (histogramme) et plus strict, DEPLACE et re-association limites (produits identiques voisins).
+# Les chemins relatifs partent du dossier de ce fichier.
+
+video:
+  source: "videos"            # fichier video, dossier de videos, ou 0 pour la webcam
+  resize_width: 960           # largeur de traitement en pixels (null = taille d'origine ; jamais agrandi)
+  threads: null               # fils PyTorch (null = tous les coeurs)
+
+detector:
+  type: "world"               # coco (YOLOv8n COCO), world (vocabulaire ouvert), simulated (video synthetique)
+  model_path: "yolov8n.pt"    # type coco : choix du depot de reference ; "yolo26n.pt" possible pour comparer
+  confidence: 0.15           # bas : les petits produits d'un rayon sont detectes avec peu de confiance
+  imgsz: 960                  # 960 : trois fois plus de produits trouves qu'a 640 sur un rayon
+  device: "auto"              # auto, cpu, cuda, mps
+  roi_crops: false            # true : articles cherches dans un recadrage agrandi de chaque vitrine
+  roi_margin: 0.15            # marge autour de la vitrine pour le recadrage
+  # type coco : objets surveilles (noms des classes COCO)
+  target_classes: ["bottle", "cup", "wine glass", "cell phone", "book", "laptop", "mouse",
+                   "remote", "keyboard", "scissors", "backpack", "handbag", "clock", "vase",
+                   "suitcase", "umbrella", "tie", "sports ball", "teddy bear"]
+  # type world : modele a vocabulaire ouvert et classes en texte libre
+  world_model: "yoloe-26n-seg.pt"     # YOLOE : trouve les petits produits d'un rayon (YOLO-World n'en voit aucun)
+  world_classes: ["product", "bottle", "yogurt", "milk carton", "cheese"]
+  # type simulated : classes de couleur de la video synthetique (voir detectors/color_detector.py)
+  color_classes: ["chaussure", "sac", "montre", "parfum", "lunettes", "bijou"]
+  # Ce qui peut cacher un article (une main ou un bras est detecte comme "person")
+  occluder_classes: ["person"]
+
+tracker:                      # DeepSORT des articles (bibliotheque deep-sort-realtime)
+  max_age: 30                 # piste perdue vite : evite de la recoller sur un produit voisin identique
+  n_init: 3                   # detections consecutives avant de confirmer une piste
+  max_iou_distance: 0.5       # association plus stricte entre produits serres
+  max_cosine_distance: 0.3    # seuil sur l'apparence (ReID)
+  nn_budget: 100
+  embedder: "histogram"       # 60 produits par image : le ReID MobileNetV2 divise la vitesse par 4
+  embedder_size: 128          # cote des vignettes du ReID (224 dans la bibliotheque : 3 x plus lent sur CPU)
+  embedder_gpu: false
+
+person_tracker:               # second DeepSORT, separe, pour les clients
+  enabled: true
+  max_age: 60
+  n_init: 3
+  max_iou_distance: 0.7
+  max_cosine_distance: 0.4
+  nn_budget: 100
+  embedder: "mobilenet"
+  embedder_gpu: false
+
+zone:
+  file: "zones.json"          # cree par : python main.py --select-zone ; <video>.zones.json est prioritaire
+  points: null                # sinon [[x, y], ...] ; null = toute l'image (une seule vitrine "Zone 1")
+
+monitor:                      # notre logique (engine/scene_monitor.py)
+  warmup_seconds: 2.0         # memorisation de l'inventaire au demarrage
+  removal_delay_seconds: 3.0  # absence NON cachee avant l'alerte RETIRE
+  max_occlusion_seconds: 15.0 # au-dela, un objet cache est compte comme absent
+  new_object_seconds: 2.0     # presence immobile avant d'ajouter un nouvel objet
+  settle_seconds: 0.7         # duree d'immobilite pour dire qu'un objet est pose
+  move_ratio: 1.5             # petits produits : la boite tremble de plus d'une demi-diagonale, seuil releve
+  rematch_iou: 0.3            # recuperation d'un objet dont l'ID a change...
+  rematch_distance_ratio: 1.0 # ...ou dont le centre est a moins d'une diagonale
+  rebind_max_distance_ratio: 3.0 # rayon dense : un article manquant n'est reconnu que dans un objet pose a moins de 3 diagonales
+  occluder_overlap: 0.2       # part de l'objet couverte par une personne = MASQUE
+  occluder_margin: 0.5        # ...ou personne a moins de 0.5 x diagonale du centre (0 = desactive)
+  lost_grace_seconds: 0.5
+  visual_check: true          # compare l'emplacement a sa photo avant d'alerter
+  visual_similarity: 0.75     # au-dessus : l'objet est encore la (rate du detecteur)
+  patch_refresh_seconds: 1.0
+  person_memory_seconds: 1.0  # un client vu il y a moins de 1 s peut etre associe a une disparition
+  person_max_distance_ratio: 4.0  # distance maximale (en diagonales de l'article) pour l'association
+  person_forget_seconds: 10.0 # on oublie un client non revu depuis 10 s
+  candidate_person_coverage: 0.6  # un objet recouvert a plus de 60 % par une personne (porte, tenu) n'entre pas dans l'inventaire
+  duplicate_iou: 0.7          # un objet qui recouvre a plus de 70 % un article deja inventorie (meme sous un autre nom) n'est pas un nouvel article
+
+output:
+  dir: "outputs"
+  save_screenshots: true
+  save_video: false
+  save_clips: true            # clip de preuve (5 s avant / 5 s apres) a chaque RETIRE, dans outputs/clips/
+  clip_pre_seconds: 5.0
+  clip_post_seconds: 5.0
+
+display:
+  show: true
+  panel_width: 380
+  banner_seconds: 3.0
